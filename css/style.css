@@ -1,4 +1,17 @@
 
+@media (min-width: 1600px) {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 18% !important;
+    }
+}
+
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
